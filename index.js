@@ -13,8 +13,6 @@ function logSensorData(sensor, value) {
     fs.appendFile(logFile, logEntry, (err) => {
         if (err) console.error('Error writing to log file:', err);
     });
-
-
     
 }
 
