@@ -16,6 +16,8 @@ function logSensorData(sensor, value) {
     
 }
 
+
+
 // Simulated sensors
 const sensors = ['Temperature', 'Humidity', 'Pressure', 'Light', 'Motion'];
 
