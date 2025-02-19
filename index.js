@@ -6,9 +6,6 @@ const path = require('path');
 // Log file path
 const logFile = path.join(__dirname, 'sensor_data_log.txt');
 
-
-
-
 // Function to log sensor data
 function logSensorData(sensor, value) {
     const timestamp = new Date().toISOString();
