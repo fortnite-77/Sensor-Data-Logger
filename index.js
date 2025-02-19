@@ -14,8 +14,6 @@ function logSensorData(sensor, value) {
         if (err) console.error('Error writing to log file:', err);
     });
 
-
-    
 }
 
 // Simulated sensors
