@@ -3,8 +3,6 @@
 const fs = require('fs');
 const path = require('path');
 
-
-
 // Log file path
 const logFile = path.join(__dirname, 'sensor_data_log.txt');
 
