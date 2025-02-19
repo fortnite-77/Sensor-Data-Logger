@@ -22,9 +22,6 @@ const sensors = ['Temperature', 'Humidity', 'Pressure', 'Light', 'Motion'];
 // Function to generate random sensor values
 function getRandomSensorValue(sensor) {
     switch (sensor) {
-
-            \
-
             
         case 'Temperature': return (Math.random() * 30 + 10).toFixed(2) + '°C';
         case 'Humidity': return (Math.random() * 50 + 30).toFixed(2) + '%';
